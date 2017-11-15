@@ -1,0 +1,5 @@
+script:
+  - wget -qO- $SFDX_URL | tar xJf -; ./sfdx/install; export PATH=./sfdx/$(pwd):$PATH; sfdx update
+  - sfdx force:mdapi:convert -r src -d force-app
+  - sfdx force:source:convert -r force-app -d src
+  - git diff --exit-code src
