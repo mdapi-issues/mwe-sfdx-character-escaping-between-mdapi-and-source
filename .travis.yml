@@ -1,3 +1,4 @@
+sudo: required
 script:
   - wget -qO- $SFDX_URL | tar xJf -; ./sfdx/install; export PATH=./sfdx/$(pwd):$PATH; sfdx update
   - sfdx force:mdapi:convert -r src -d force-app
