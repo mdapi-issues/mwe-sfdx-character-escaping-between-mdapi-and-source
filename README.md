@@ -1,5 +1,9 @@
 # SFDX App
 
+> Minimal working example for demonstrating different character escaping on converting mdapi and source format
+
+[![Build Status](https://travis-ci.org/amtrack/mwe-character-escaping-between-mdapi-and-source.svg?branch=master)](https://travis-ci.org/amtrack/mwe-character-escaping-between-mdapi-and-source)
+
 ## Issues
 
   - MDAPI escapes always escapes special characters
