@@ -17,6 +17,6 @@
   },
   "homepage": "https://github.com/amtrack/mwe-character-escaping-between-mdapi-and-source#readme",
   "dependencies": {
-    "sfdx-cli": "^6.29.0"
+    "sfdx-cli": "^7.0.0"
   }
 }
