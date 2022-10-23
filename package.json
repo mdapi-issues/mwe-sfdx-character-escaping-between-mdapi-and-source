@@ -4,7 +4,7 @@
   "description": "Minimal working example for demonstrating different character escaping on converting mdapi and source format",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "bash scripts/test.sh"
   },
   "repository": {
     "type": "git",
@@ -16,7 +16,7 @@
     "url": "https://github.com/amtrack/mwe-character-escaping-between-mdapi-and-source/issues"
   },
   "homepage": "https://github.com/amtrack/mwe-character-escaping-between-mdapi-and-source#readme",
-  "dependencies": {
-    "sfdx-cli": "^7.0.0"
+  "devDependencies": {
+    "sfdx-cli": "7.173.0"
   }
 }

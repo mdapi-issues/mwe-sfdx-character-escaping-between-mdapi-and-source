@@ -2,8 +2,8 @@
 <ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
     <fullName>Amount_too_small</fullName>
     <active>true</active>
-    <description>Description with some semi quotes 'Hi'</description>
+    <description>Description with some semi quotes &apos;Hi&apos;</description>
     <errorConditionFormula>Amount &lt; 100</errorConditionFormula>
     <errorDisplayField>Amount</errorDisplayField>
-    <errorMessage>Amount 'too small'</errorMessage>
+    <errorMessage>Amount &apos;too small&apos;</errorMessage>
 </ValidationRule>

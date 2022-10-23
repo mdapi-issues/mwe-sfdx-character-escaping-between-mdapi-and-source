@@ -38,7 +38,7 @@ index 7ea2b2b..3f4e98a 100644
 -        <members>Opportunity.Amount_too_small</members>
 -        <name>ValidationRule</name>
 -    </types>
--    <version>41.0</version>
+-    <version>56.0</version>
 -</Package>
 +  <types>
 +    <name>CustomObject</name>
@@ -48,7 +48,7 @@ index 7ea2b2b..3f4e98a 100644
 +    <name>ValidationRule</name>
 +    <members>Opportunity.Amount_too_small</members>
 +  </types>
-+  <version>41.0</version>
++  <version>56.0</version>
 +</Package>
 \ No newline at end of file
 ```
