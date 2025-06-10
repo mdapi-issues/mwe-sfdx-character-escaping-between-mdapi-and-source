@@ -1,22 +1,11 @@
 {
   "name": "mwe-character-escaping-between-mdapi-and-source",
   "version": "0.1.0",
+  "private": true,
   "description": "Minimal working example for demonstrating different character escaping on converting mdapi and source format",
-  "main": "index.js",
   "scripts": {
     "test": "bash scripts/test.sh"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/amtrack/mwe-character-escaping-between-mdapi-and-source.git"
-  },
   "author": "Matthias Rolke <mr.amtrack@gmail.com>",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/amtrack/mwe-character-escaping-between-mdapi-and-source/issues"
-  },
-  "homepage": "https://github.com/amtrack/mwe-character-escaping-between-mdapi-and-source#readme",
-  "devDependencies": {
-    "sfdx-cli": "7.173.0"
-  }
+  "license": "MIT"
 }

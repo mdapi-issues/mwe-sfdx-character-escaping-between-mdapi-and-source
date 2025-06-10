@@ -3,6 +3,6 @@
 set -eo pipefail
 set -x
 
-sfdx force:mdapi:convert -r src -d force-app
-sfdx force:source:convert -r force-app -d src
+sf project convert mdapi --root-dir src --output-dir force-app
+sf project convert source --root-dir force-app --output-dir src
 git diff --exit-code src force-app

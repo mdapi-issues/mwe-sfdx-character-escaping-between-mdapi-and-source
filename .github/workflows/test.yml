@@ -3,23 +3,21 @@ name: Test
 on:
   push:
     branches:
-      - master
+      - main
   pull_request:
     branches:
-      - master
+      - main
 
 jobs:
   default:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
         with:
-          fetch-depth: 0
-      - uses: actions/setup-node@v3
-        with:
-          node-version: 16
+          node-version-file: .node-version
       - name: Install dependencies
-        run: yarn install
+        run: npm install --global @salesforce/cli
       - name: Run tests
-        run: yarn test
+        run: npm run test
 
